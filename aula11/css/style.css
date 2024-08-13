@@ -1,0 +1,59 @@
+body{
+    background-image: url('../img/gatofundo.jpeg');
+
+    
+      
+}
+
+main {
+    background-color: rgb(129, 241, 230);
+    width: 50%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 8px 8px 15px black;
+}
+.box-input {
+    margin: 20px 0px 20px 0px;
+
+    
+}
+form {
+width: 70%;
+margin: auto;
+}
+.label-login {
+ display: block;
+ text-align: left;
+ font-weight: bold;
+}
+.input-login {
+    font-size: 16pt;
+    padding: 5px;
+    border: none;
+    width: 98%;
+}
+#box-save{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+input[type=submit]{
+    width: 50%;
+    font-size: 14pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+#show-hide{
+    position: absolute;
+    bottom: 114px;
+    right: 140px;
+    background-color: rgb(196, 192, 192);
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
